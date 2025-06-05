@@ -36,12 +36,6 @@ def save_data():
 st.set_page_config(page_title="Alek and Dad's Fishing Log", layout="wide")
 st.title("🎣 Alek and Dad's Fishing Log")
 
-# 🔐 Simple password protection
-password = st.text_input("Enter password to access the app", type="password")
-if password != "fishon2025":  # 👈 change this to your private password
-    st.warning("Access denied. Please enter the correct password.")
-    st.stop()
-    
 # Tabs
 tab1, tab2, tab3 = st.tabs(["Log a Trip", "Stats", "View/Edit Trips"])
 
