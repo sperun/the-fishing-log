@@ -1,0 +1,75 @@
+{
+    "trips": [
+        {
+            "date": "2025-04-12",
+            "location": "Lake Lenape",
+            "weather": "Sunny",
+            "anglers": [
+                "Dad",
+                "Alek",
+                "Jacob"
+            ],
+            "blanked": false,
+            "catches": {
+                "Dad": [],
+                "Alek": [
+                    {
+                        "species": "Trout - Rainbow",
+                        "count": 4
+                    }
+                ],
+                "Jacob": [
+                    {
+                        "species": "Trout - Rainbow",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        {
+            "date": "2025-03-21",
+            "location": "Wawa",
+            "weather": "Sunny",
+            "anglers": [
+                "Dad",
+                "Alek"
+            ],
+            "blanked": true,
+            "catches": {}
+        },
+        {
+            "date": "2025-04-06",
+            "location": "Lake Lenape",
+            "weather": "Sunny",
+            "anglers": [
+                "Dad",
+                "Alek"
+            ],
+            "blanked": true,
+            "catches": {}
+        }
+    ],
+    "locations": [
+        "Lake Lenape",
+        "Wawa"
+    ],
+    "anglers": [
+        "Dad",
+        "Alek",
+        "Jacob"
+    ],
+    "species": [
+        "Bluegill",
+        "Green Sunfish",
+        "Black Crappie",
+        "White Crappie",
+        "Largemouth Bass",
+        "Smallmouth Bass",
+        "Bluefish",
+        "Summer Flounder",
+        "Winter Flounder",
+        "Trout - Rainbow",
+        "Trout - Brown",
+        "Trout - Brook"
+    ]
+}
